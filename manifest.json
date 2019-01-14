@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "swagger-viewer",
+    "description": "right-click yaml to view swagger APIs HTML",
+    "version": "1",
+    "author": "Eric",
+    "permissions": [
+        "<all_urls>",
+        "contextMenus",
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "icons": {
+        "16": "icon-16.png"
+    }
+}
